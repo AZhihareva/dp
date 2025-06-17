@@ -2,34 +2,34 @@ import { getGroupById, getGroups, getGroup } from "./groups";
 
 const users = [
     {
-        login: 'user1',
+        login: 'ЖихареваА',
         password: "1111",
         // name: '',
-        groups: ['group1', 'group2', 'group3', 'group5']
+        groups: ['День рождения', 'Новый год', 'Выпускной', 'День знаний']
     },
     {
-        login: 'user2',
+        login: 'ПилипчукЕ',
         password: "2222",
         // name: '',
-        groups: ['group1', 'group2', 'group3']
+        groups: ['День рождения', 'Новый год', 'Выпускной']
     },
     {
-        login: 'user3',
+        login: 'ЗайцевД',
         password: "3333",
         // name: '',
-        groups: ['group1', 'group2', 'group3', 'group4']
+        groups: ['День рождения', 'Новый год', '23 февраля', 'Выпускной']
     },
     {
-        login: 'user4',
+        login: 'КазакК',
         password: "4444",
         // name: '',
-        groups: ['group2', 'group4', 'group5']
+        groups: ['Новый год', '23 февраля', 'Выпускной', "День знаний"]
     },
     {
-        login: 'user5',
+        login: 'РомановичА',
         password: "5555",
         // name: '',
-        groups: ['group3', 'group4', 'group5']
+        groups: ['Новый год', '23 февраля', "Выпускной", 'День знаний']
     },
 ];
 

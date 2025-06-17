@@ -2,32 +2,44 @@ import { addUserGroup, deleteUserGroup, getUser, getUsers } from "./accounts";
 
 const groups = [
     {
-        name: 'group1',
-        owner: 'user1',
+        name: 'День рождения',
+        owner: 'ЖихареваА',
         senderToRecipient: new Map(),
         recipientToSender: new Map(),
     },
     {
-        name: 'group2',
-        owner: 'user2',
+        name: 'Новый год',
+        owner: 'ПилипчукЕ',
+        senderToRecipient: new Map([
+            ["ПилипчукЕ", 'ЖихареваА'],
+            ["ЗайцевД", 'ПилипчукЕ'],
+            ["РомановичА", 'ЗайцевД'],
+            ['ЖихареваА', 'КазакК'],
+            ['КазакК', 'РомановичА']
+            ]),
+        recipientToSender: new Map([
+            ["ЖихареваА", 'ПилипчукЕ'],
+            ["ПилипчукЕ", 'ЗайцевД'],
+            ["ЗайцевД", 'РомановичА'],
+            ['КазакК', 'ЖихареваА'],
+            ['РомановичА', 'КазакК']
+            ]),
+    },
+    {
+        name: '23 февраля',
+        owner: 'ЗайцевД',
         senderToRecipient: new Map(),
         recipientToSender: new Map(),
     },
     {
-        name: 'group3',
-        owner: 'user3',
+        name: 'Выпускной',
+        owner: 'КазакК',
         senderToRecipient: new Map(),
         recipientToSender: new Map(),
     },
     {
-        name: 'group4',
-        owner: 'user4',
-        senderToRecipient: new Map(),
-        recipientToSender: new Map(),
-    },
-    {
-        name: 'group5',
-        owner: 'user5',
+        name: 'День знаний',
+        owner: 'РомановичА',
         senderToRecipient: new Map(),
         recipientToSender: new Map(),
     }

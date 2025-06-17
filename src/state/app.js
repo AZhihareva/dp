@@ -1,3 +1,3 @@
 import {ref} from 'vue'
 
-export const currentUser = ref('user1');
+export const currentUser = ref('ЖихареваА');
